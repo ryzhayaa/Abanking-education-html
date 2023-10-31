@@ -1,6 +1,7 @@
 .featured {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 15px 146px 0;
 
     .featured__about {
         font-weight: 400;
@@ -8,7 +9,6 @@
         line-height: 60px;
         color: #21243D;
         padding-bottom: 22px;
-        padding-top: 15px;
         grid-column: span 2;
 
         &:hover {
