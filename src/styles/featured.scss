@@ -1,0 +1,86 @@
+.featured {
+    .featured__about {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 60px;
+        color: #21243D;
+        margin-left: 148px;
+        padding-bottom: 22px;
+        padding-top: 15px;
+    }
+
+    .featured__design {
+        .featured__design__item {
+            display: flex;
+            flex-direction: row;
+            margin-left: 146px;
+            border-bottom: 1px solid rgba(224, 224, 224, 1);
+
+            &:nth-child(1) {
+                padding-bottom: 15px;
+            }
+
+            &:nth-child(2) {
+                padding-top: 31px;
+                padding-bottom: 35px;
+            }
+
+            &:nth-child(3) {
+                padding-top: 31px;
+                padding-bottom: 32px;
+            }
+
+            .featured__image {
+                border-radius: 6px;
+            }
+
+            .featured__design-container {
+                display: flex;
+                flex-direction: column;
+                margin-left: 18px;
+
+                .featured__design__item__title {
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height: 44.06px;
+                    color: #21243D;
+                    margin-bottom: 20px;
+                }
+
+                .featured__design__item__year {
+                    font-weight: 900;
+                    font-size: 18px;
+                    line-height: 60px;
+                    display: inline-flex;
+                    color: rgba(255, 255, 255, 1);
+                    background-color: rgba(20, 40, 80, 1);
+                    width: 62px; 
+                    height: 25px; 
+                    border-radius: 16px; 
+                    justify-content: center; 
+                    align-items: center; 
+                    margin-right: 26px;
+                }
+
+                .featured__design__item__about {
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 29.38px;
+                    color: #8695A4;
+                    display: inline-flex;
+                    margin-bottom: 22px;
+                }
+
+                .featured__design__item__about__all {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 23.5px;
+                    color: #21243D;
+                    display: inline-flex;
+                    width: 594px;
+                    height: 93px;
+                }
+            }
+        }
+    }
+}

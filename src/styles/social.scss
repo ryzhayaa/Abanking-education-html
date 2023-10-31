@@ -1,0 +1,27 @@
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 459px; 
+    padding-right: 0;
+}
+
+.social_clubs {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.social__clubs__item {
+    margin-right: 35px;
+    margin-top: 51px; 
+}
+
+.social__copyright {
+    margin-top: 26px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.56px;
+    text-align: center;
+    color: #21243D; 
+}

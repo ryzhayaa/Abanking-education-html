@@ -1,0 +1,30 @@
+@use './creative.scss';
+@use './design.scss';
+@use './featured.scss';
+@use './social.scss';
+@use './navigation.scss';
+* {
+box-sizing: border-box;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}

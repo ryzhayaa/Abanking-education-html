@@ -1,0 +1,25 @@
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 140px;
+    padding-right: 856px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__item:not(:last-child) {
+    margin-right: 33px; 
+}
+
+.navigation__item a {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: rgba(0, 0, 0, 1);
+}
