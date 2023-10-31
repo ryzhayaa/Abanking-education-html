@@ -2,14 +2,12 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    padding-left: 459px; 
-    padding-right: 0;
+    padding: 0 461px;
 }
 
-.social_clubs {
+.social__clubs {
     display: flex;
     justify-content: center;
-    
 }
 
 .social__clubs__item {
@@ -24,4 +22,5 @@
     line-height: 20.56px;
     text-align: center;
     color: #21243D; 
+    padding-bottom: 54px;
 }
